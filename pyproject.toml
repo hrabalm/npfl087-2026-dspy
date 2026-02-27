@@ -1,0 +1,16 @@
+[project]
+name = "npfl087-2026-dspy"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13,<3.14"
+dependencies = [
+    "cytoolz>=1.1.0",
+    "dspy>=3.1.3",
+    "ipykernel>=7.2.0",
+    "pandas>=3.0.1",
+    "rich>=14.3.3",
+    "sacrebleu>=2.6.0",
+    "tqdm>=4.67.3",
+    "zstandard>=0.25.0",
+]

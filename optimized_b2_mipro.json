@@ -1,0 +1,63 @@
+{
+  "traces": [],
+  "train": [],
+  "demos": [
+    {
+      "augmented": true,
+      "src_lang": "English",
+      "tgt_lang": "Czech",
+      "src": "Damn this rusty K1100! Is there a single screw which has not seized?!",
+      "tgt": "Sakra, ten rezavý K1100! Existuje vůbec jediný šroub, který se nepřipletl?!"
+    },
+    {
+      "augmented": true,
+      "src_lang": "English",
+      "tgt_lang": "Czech",
+      "src": "The thick cloud cover prevented sunlight from reaching the surface of the Earth. The Earth underwent a global glaciation event, known as the Snowball Earth. This caused another global mass extinction. But once again, some life survived yet another difficult period, beneath the ice sheet.",
+      "tgt": "Silná oblačnost zabránila slunečnímu záření dosáhnout povrchu Země. Země prošla globálním glaciálním obdobím, známým jako Snowball Earth. To způsobilo další globální masové vymírání. Přesto však některý život přežil další obtížné období pod ledovým štítem."
+    },
+    {
+      "augmented": true,
+      "src_lang": "English",
+      "tgt_lang": "Czech",
+      "src": "It is extraordinary what can be achieved by a poignant television drama - ITV's Mr Bates Vs The Post Office - in an election year. After years of inaction, politicians are suddenly falling over themselves to do something. However, there are problems with Rishi Sunak's approach.",
+      "tgt": "Je pozoruhodné, co může dosáhnout dojemné televizní drama – ITV Mr Bates vs. The Post Office – ve volebním roce. Po letech nečinnosti se politici najednou snaží něco udělat. Avšak přístup Rishiho Sunaka má své problémy."
+    },
+    {
+      "augmented": true,
+      "src_lang": "English",
+      "tgt_lang": "Czech",
+      "src": "Irregularly, Anton’s was pretty busy; it was bustling with activity and new faces that I’ve never seen before – Anton was regularly the only worker, so knowing that he must be pretty stressed. “Hey Barkeep, get me a coffee.” I purposely spoke in a lower tone to throw him off a bit, a small chuckle escaping me seeing his sigh of relief after turning quickly. “God, Lilith, don’t do that to me…” he softly let out, obviously tired. “You seem pretty busy…you need some help? Look’s like there's more than plenty of folks here.” I huffed out, I do not want to help with these drunks, but I feel bad making this guy work alone out here. “Could you? I’ll pay you after…” he uttered with the eyes of a puppy, aimed straight at me. Advanced War Tactics…",
+      "tgt": "Občas bylo v Antonově hospodě docela rušno; pulzovalo to aktivitami a novými tvářemi, které jsem nikdy předtím neviděl – Anton byl většinou jediným zaměstnancem, takže z toho plyne, že musel být docela pod tlakem. „Hej, číšníku, přines mi kafe.“ Úmyslně jsem mluvil tišeji, abych ho trochu zmátl, a při tom se mi podařil lehký úšklebek, když jsem slyšel jeho úlevný výdech po rychlém otočení. „Bože, Lilithi, nedělej mi to…“ zamumlal unaveně. „Vypadáš, že máš dost práce…potřebuješ pomoc? Vypadá to, že tady je víc lidí, než stačí.“ Zafňkl jsem, nechci pomáhat těmto opilcům, ale dělá mi špatně, že ten chlapík musí pracovat sám. „Mohl bys? Zaplatím ti později…“ řekl se v očích jako štěně, přímo na mě upřený. Pokročilá válcová taktika…"
+    }
+  ],
+  "signature": {
+    "instructions": "Given the fields `src_lang`, `tgt_lang`, `src`, produce the fields `tgt`.",
+    "fields": [
+      {
+        "prefix": "Src Lang:",
+        "description": "${src_lang}"
+      },
+      {
+        "prefix": "Tgt Lang:",
+        "description": "${tgt_lang}"
+      },
+      {
+        "prefix": "Src:",
+        "description": "${src}"
+      },
+      {
+        "prefix": "Tgt:",
+        "description": "${tgt}"
+      }
+    ]
+  },
+  "lm": null,
+  "metadata": {
+    "dependency_versions": {
+      "python": "3.13",
+      "dspy": "3.1.3",
+      "cloudpickle": "3.1"
+    }
+  }
+}
